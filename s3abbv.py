@@ -1,5 +1,7 @@
 import stateData
 
+
+
 def main():
     data = stateData.getDataFromFile()
     try :
@@ -10,4 +12,7 @@ def main():
         print("No results. " + stateQuery + " was not found.")
 
 
-main()
+while True:
+    main()
+    if input("Do you with to continue? Enter X to close.") == "X":
+        break
