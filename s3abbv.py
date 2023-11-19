@@ -9,7 +9,7 @@ class StateProv:
         self.region = region
 
 def getDataFromFile(dictFile):
-    fs = open(dictFile, "r")
+    fs = open(f"data/{dictFile}", "r")
     fsData = fs.read()
     jsonData = json.loads(fsData)
     fs.close()  
