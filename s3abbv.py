@@ -1,26 +1,7 @@
-import json 
-
-dicts = {"USdict.json":"US","AUdict.json":"AU","CAdict.json":"CA"}
-
-class StateProv:
-    def __init__(self, name, abbreviation, region):
-        self.name = name, 
-        self.abbreviation = abbreviation,
-        self.region = region
-
-def getDataFromFile(dictFile):
-    fs = open(f"data/{dictFile}", "r")
-    fsData = fs.read()
-    jsonData = json.loads(fsData)
-    fs.close()  
-    return jsonData
+import stateData
 
 def main():
-    data = {}
-    for key in dicts: 
-        newData = getDataFromFile(key)
-        for s in newData:
-            data[s] = StateProv(s, newData[s], dicts[key])
+    data = stateData.getDataFromFile()
     try :
         stateQuery = input("What State do you need abbreviated?: ")
         stateResult = data[stateQuery]
