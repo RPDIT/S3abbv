@@ -3,7 +3,6 @@ import stateData
 
 
 def main():
-    data = stateData.getDataFromFile()
     try :
         stateQuery = input("What State do you need abbreviated?: ")
         stateResult = data[stateQuery]
@@ -11,6 +10,8 @@ def main():
     except:
         print("No results. " + stateQuery + " was not found.")
 
+
+data = stateData.getDataFromFile()
 
 while True:
     main()
