@@ -12,7 +12,7 @@ class StateProv:
 def getDataFromFile():
     data = {}
     for key in dicts: 
-        fs = open(f"data/{key}", "r")
+        fs = open(f"data\{key}", "r")
         fsData = fs.read()
         jsonData = json.loads(fsData)
         fs.close()  
