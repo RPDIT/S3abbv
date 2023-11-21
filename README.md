@@ -11,3 +11,4 @@ A tool to return the postal abbreviation of the given state/province.
 
 - Double click start.bat
 - Enter the State/Province you are looking for
+- Syntax: Ensure you capitalize each word for multi-word States.

@@ -15,5 +15,5 @@ data = stateData.getDataFromFile()
 
 while True:
     main()
-    if input("Do you wish to continue? Enter X to close.") == "X":
+    if input("Press any key to continue? Enter X to close.") == "X":
         break
