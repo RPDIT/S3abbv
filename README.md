@@ -6,23 +6,37 @@ The application iterates through a dictionary of Region Codes and filepaths as k
 
 With the data loaded into an active dictionary, the application prompts the user for an input of the full state name.
 
+# Updates
 
-# Updates 
-
-02/20/2024 - I have been experimenting with hash maps in other languages and decided to try implementing one here. It uses a hashing function that finds the MOD of each character to determine its key, then places the state object at that position on the hash map. 
+02/20/2024 - I have been experimenting with hash maps in other languages and decided to try implementing one here. It uses a hashing function that finds the MOD of each character to determine its key, then places the state object at that position on the hash map.
 
 ```
-$ python s3abbv.py
-What State do you need abbreviated?: Queensland
-('QLD',) is the shorthand for ('Queensland',) in AU
+What State do you need abbreviated?: american samoa
+AS
+
+Is the shorthand for: American Samoa
+
+In the region: US
+
 Press enter to continue, type X to close the app.
-What State do you need abbreviated?: Florida
-('FL',) is the shorthand for ('Florida',) in US
+
+
+What State do you need abbreviated?: quebec
+QC
+
+Is the shorthand for: Quebec
+
+In the region: CA
+
 Press enter to continue, type X to close the app.
-What State do you need abbreviated?: Hawaii
-('HI',) is the shorthand for ('Hawaii',) in US
-Press enter to continue, type X to close the app.
-What State do you need abbreviated?: Europe
-No results. Europe was not found.
+
+
+What State do you need abbreviated?: new south WALES
+NSW
+
+Is the shorthand for: New South Wales
+
+In the region: AU
+
 Press enter to continue, type X to close the app.
 ```
