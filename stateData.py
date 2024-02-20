@@ -23,12 +23,16 @@ class StateTable:
         item = self.arr[h]
         if item is None:
             self.arr[h] = val
-            return val
+        elif type(item) is list:
+            bucket = [val]
+            bucket.extend(item)
+            self.arr[h] = bucket
         else:
             bucket = [item]
             bucket.append(val)
             self.arr[h] = bucket
-            return val
+        return
+
 
     def __getitem__(self, key):
         h = self.get_hash(self.capit(key))
