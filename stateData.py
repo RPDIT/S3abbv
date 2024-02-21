@@ -41,7 +41,7 @@ class StateTable:
             for i in item:
                 if self.capit(key) == self.clean_item(i.name):
                     return i
-        elif item:
+        elif self.capit(key) == self.clean_item(item.name):
             return item
         else:
             return print("There is no item with that key")
