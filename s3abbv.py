@@ -32,7 +32,7 @@ def button_clicked() -> None:
 
 
 window = Tk()
-
+window.title("Postal Abbreviation")
 window.geometry("175x250")
 window.configure(bg = "#09001E")
 
