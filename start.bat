@@ -1,5 +1,5 @@
 echo off
-set arg=\s3abbv.py
+set arg=\gui.py
 set filepath=%0\..\%arg%
 FOR /f %%p  in ('where python') do SET PYTHONPATH=%%p
 shift
