@@ -14,7 +14,7 @@ A large challenge to the text-based version of this application was its case-sen
 
 The tool created to answer this formatting issue was used repeatedly throughout the project, reaffirming the power of versatile and adaptable code.
 
-With this being a first successful endeavor into GUI development in python, I ran into many roadblocks designing the UI via raw tkinter. Discovering and using tkinter-designer was incredibly useful. It allowed me to streamline the artistic design elements of the GUI and get simply connect my comprehensively-designed API elements.
+With this being a first successful endeavor into GUI development in python, I ran into many roadblocks designing the UI via raw tkinter. Discovering and using tkinter-designer was incredibly useful. It allowed me to streamline the artistic design elements of the GUI and connect my comprehensively-designed API elements.
 
 # Usage
 
