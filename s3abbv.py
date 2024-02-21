@@ -32,7 +32,7 @@ def button_clicked() -> None:
 
 
 window = Tk()
-window.title("Postal Abbreviation")
+window.title(" ")
 window.geometry("175x250")
 window.configure(bg = "#09001E")
 
@@ -95,9 +95,9 @@ button_1 = Button(
 )
 button_1.place(
     x=62.0,
-    y=95.0,
+    y=98.0,
     width=50.0,
-    height=25.0
+    height=16.46500015258789
 )
 
 entry_image_2 = PhotoImage(

@@ -30,4 +30,8 @@ python s3abbv.py
 
 02/21/2024 - Completed a first iteration of a GUI for this application using Tkinter, Figma, and Tkinter-Designer.
 
-![A smal window with a dark purple background, a grey rectangle with white text declaring the app's purpose "Postal Abbreviation. A smaller grey text input box to enter the state you want to look up, a single submit button underneath the input box, and a larger grey box that holds the application's output. ](assets/image.png)
+![A smal window with a dark purple background, a grey rectangle with white text declaring the app's purpose "Postal Abbreviation. A smaller grey text input box to enter the state you want to look up, a single submit button underneath the input box, and a larger grey box that holds the application's output. ](assets/image02.png)
+
+![alt text](assets/image03.png)
+
+![alt text](assets/image04.png)
